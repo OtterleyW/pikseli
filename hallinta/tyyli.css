@@ -1,0 +1,64 @@
+  	body {
+  		background-color: #f1f1f1;
+  	}
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      height: 100%;
+    }
+
+    h2 {
+    	margin-bottom: 20px !important;
+    	border-bottom: 1px dashed gray;
+    }
+
+    .btn {
+    	padding: 7px;
+    	margin-top: 5px;
+    }
+
+    .sisalto {
+    	background-color: white;
+     padding-bottom: 50px;
+    }
+
+    .hevoslistaus {
+      padding: 5px;
+      margin-bottom: 5px !important;
+      border-bottom: 1px dashed gray;
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .hevoslistaus .btn {
+     margin-left: 10px;
+    }
+
+    .hevoslistaus .tiedot {
+      text-align: left;
+    }
+
+    .hevoslistaus .buttonit {
+      text-align: right;
+    }
+
+    .alert {
+      margin-top: 25px;
+
+    }
+
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;}
+    }

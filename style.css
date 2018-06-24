@@ -1,0 +1,727 @@
+@import url(https://fonts.googleapis.com/css?family=Almendra+Display);
+@import url(https://fonts.googleapis.com/css?family=Homemade+Apple);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Fauna+One);
+
+body {
+	background-image: url('img/tausta.png');
+	font-size: 100%;
+	font-family: 'Fauna One', serif !important;
+	color: #2d2d30 !important;
+}
+
+p {
+	font-size: 1em !important;
+	line-height: 2em !important;
+}
+
+a:link {
+	color: #3c6e72 !important;
+}
+
+a:hover {
+	color: #5c9d82 !important;
+}
+
+a:visited, a:active {
+	color: #3c6e72 !important;
+}
+
+.teksti h1, .teksti h2 {
+	font-family: 'Almendra Display', cursive !important;
+	font-weight: bold !important;
+	padding: 7px !important;
+}
+
+.teksti h1 {
+	font-size: 4em !important;
+	margin: 30px !important;
+	text-align: center;
+	color: hsla(30, 9%, 32%, 1) !important;
+	border-top: 2px solid hsla(155, 26%, 74%, 0.5);
+	border-bottom: 2px solid hsla(155, 26%, 74%, 0.5);
+	background-color: hsla(155, 26%, 74%, 0.3);
+	box-shadow: inset 100px 0px 100px -40px hsla(47, 92%, 90%, 1), 
+	            inset -100px 0px 100px -40px hsla(47, 92%, 90%, 1);
+}
+
+.teksti h2 {
+	font-size: 2.7em !important;
+	margin-bottom: 15px !important;
+}
+
+@media screen and (max-width: 575px) {
+    .teksti h1 {
+    	font-size: 2.5em !important;
+    	margin: 10px !important;
+	}
+    .teksti h2 {
+    	font-size: 1.5em !important;
+    }
+}
+
+
+.layout {
+	background-color:hsla(47, 92%, 90%, 1);
+	border: 15px solid hsla(30, 9%, 32%, 0.7);
+	border-top: 0;
+	border-bottom: 0;
+	margin-top: 50px;
+}
+
+/* Navbar muotoilut */
+
+  .navbar {
+      margin-bottom: 0;
+      border-bottom: 5px solid #51969B !important;
+      border-radius: 0 !important;
+      font-size: 1.1em !important;
+      background-color: #ACCEC0 !important;
+  }
+  .navbar li a, .navbar{
+      color: #3c6e72 !important;
+      text-transform: uppercase;
+  }
+
+  .navbar-brand {
+  	font-family: 'Almendra Display', cursive;
+  	font-weight: bold !important;
+    color: #3c6e72 !important;
+    font-size: 1.8em !important;
+    text-transform: none;
+  }
+
+  .navbar-nav li a:hover {
+      color: #4D463E !important;
+  }
+  .navbar-nav li.active a {
+      color: #ACCEC0 !important;
+      background-color: hsla(32, 11%, 27%, 0.2)!important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+  .open .dropdown-toggle {
+      color: #fff;
+      background-color: hsla(32, 11%, 27%, 0.2)!important;
+  }
+  .dropdown-menu li a {
+      color: #3c6e72 !important;
+  }
+  .dropdown-menu li a:hover {
+      background-color: hsla(32, 11%, 27%, 0.2) !important;
+  }
+
+/* Navbarmuotoilut loppuu */
+
+
+
+.jumbotron {
+		margin-top: 25px;
+		background-image: url('img/otsikkokuva.jpg');
+	 	background-size: cover;
+	 	background-position: center;
+	 	background-repeat: no-repeat;
+	 	padding: 0 !important;
+	 	overflow: hidden;
+
+}
+
+.mask{
+	height: 100%;
+	width: 100%;
+	padding: 10px;
+	background-color: #2d2d30;
+	opacity: 0.8;
+}
+
+
+.jumbotron h1 {
+		font-family: 'Almendra Display', cursive !important;
+		font-weight: bold;
+		font-size: 6em!important;
+		margin: 15px !important;
+		color: #fff !important;	
+}
+
+@media screen and (max-width: 575px) {
+    .jumbotron h1 {
+    	font-size: 2.5em !important;
+    }
+}
+
+.jumbotron h2 {
+	margin: 10px;
+	font-family: 'Playfari Display', serif !important;
+	font-size: 1.5em;
+	font-weight: normal !important;
+	color: #fff !important;	
+}
+
+.jumbotron p {
+	font-size: 3em !important;
+	color: #FBEEC2;
+}
+
+
+.vasen, .oikea {
+	text-align: center;
+}
+
+.vasen h2, .oikea h2 {
+	font-family: 'Almendra Display', cursive;
+	font-weight: bold;
+}
+
+.vasen img, .oikea img {
+	max-width: 85%;
+}
+
+
+.teksti {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+
+
+.teksti p {
+	text-align: justify;
+	margin-bottom: 25px;
+}
+
+.intro {
+	font-style: italic;
+	color: #3c6e72;
+	font-size: 1em!important;
+	line-height: 2em;
+	margin-top: 25px;
+	margin-bottom: 50px !important;
+}
+
+.allekirjoitus {
+    font-family: 'Homemade Apple', cursive;
+    color: #3c6e72;
+    font-size: 20px;
+}
+
+
+
+.ajankohtaista {
+	text-align: justify;
+	margin-bottom: 50px;
+	padding: 15px;
+	padding-top: 5px;
+	margin-top: 25px;
+	background-color: hsla(155, 26%, 74%, 0.5);
+	border: 2px solid hsla(184, 31%, 46%, 0.9);
+	border-bottom: 4px solid hsla(184, 31%, 46%, 0.9);
+	border-radius: 5px;
+	font-size: 0.95em;
+}
+
+.ajankohtaista h3 {
+	text-align: center;
+	font-size: 1.4em !important;
+	border-bottom: 4px double hsla(184, 31%, 46%, 0.4);
+}
+
+.heppa-font {
+	font-size: 1.1em;
+	color: hsla(184, 31%, 46%, 0.9);
+}
+
+.koristekuvat {
+	text-align: center;
+	margin-bottom: 25px;
+}
+.koristekuvat img {
+  max-width: 28%;
+  margin: 7px;
+  border: 3px solid hsla(184, 31%, 46%, 0.5); 
+  box-shadow: 0 0 10px #ccc;
+
+}
+
+@media screen and (max-width: 575px) {
+    .koristekuvat img  {
+    	margin: 3px;
+    	border: 2px solid hsla(184, 31%, 46%, 0.5); 
+    }
+}
+
+.vaakakuva {
+	max-width: 75%;
+	margin: 10px;
+	border: 3px solid hsla(184, 31%, 46%, 0.5); 
+	box-shadow: 0 0 10px #ccc;
+}
+
+.myyntiehdot ul {
+	line-height: 2em ;
+	margin-top: 0px !important;
+}
+
+.myyntiehdot li {
+	margin-bottom: 10px;
+}
+
+.myynnissa {
+	padding: 50px !important;
+	padding-top: 25px !important;
+	font-size: 0.9em !important;
+}
+
+.myynnissa h4{
+	margin-bottom: 25px !important;
+	padding: 5px !important;
+	border-bottom: 1px dashed hsla(30, 9%, 32%, 0.5);
+}
+
+.myyntikuva {
+	max-width: 95%;
+	border: 2px solid hsla(184, 31%, 46%, 0.5); 
+}
+
+@media screen and (max-width: 575px) {
+	.myyntiehdot ul{
+		font-size: 0.7em !important;
+		margin-left: -30px !important; 
+	}
+	.myynnissa {
+		padding: 15px !important;
+	}
+}
+
+.varattu {
+	color: red;
+	font-style: italic;
+}
+
+.ala {
+	bottom: 0;
+	background-color: hsla(40, 25%, 68%, 0.7);
+	color: #605951;
+	border-top: 1px solid hsla(40, 25%, 68%, 1);
+	padding: 20px;
+	margin-top: 25px;
+	font-size: 0.8em;
+}
+
+.ala h2 {
+	font-weight: bold;
+	font-size: 1.3em !important;
+	margin-bottom: 15px !important;
+}
+
+.ala img {
+	max-width: 175px;
+}
+
+.btn-custom {
+	border: 2px solid #ACCEC0 !important;
+	background-color: hsla(155, 26%, 74%, 0.5);
+}
+
+.btn-custom:hover {
+	background-color: hsla(155, 26%, 74%, 1);
+}
+
+.sydan {
+		color: pink;
+		font-size: 1em;
+		text-shadow: 0 0 3px #FF0000;
+}
+
+.sydanp {
+		color: pink;
+		font-size: 0.7em;
+		text-shadow: 0 0 1px #FF0000;
+		margin-right: 10px;
+}
+
+.yhteistyo {
+	font-size: 1.2em !important;
+}
+
+/* HEVOSLISTAUS */
+
+.heppa-wrapper {
+overflow: hidden;
+background-image: url('http://colourlovers.com.s3.amazonaws.com/images/patterns/2384/2384692.png');
+border-radius: 10px 10px 0px 0px;
+position: relative;
+margin-bottom:15px;
+max-height: 330px;
+overflow: hidden;
+}
+
+.heppa-wrapper a, a:hover{
+	color: #5c9d82 !important;
+}
+.heppa-wrapper .heppa-inner {
+background-color:hsla(47, 92%, 92%, 0.95);
+background-size: cover;
+background-position: center;
+-moz-background-size: cover;
+-webkit-background-size: cover;
+padding: 150px 0 0px;
+border-top: 1px solid hsla(40, 25%, 68%, 1);
+border-right: 1px solid hsla(40, 25%, 68%, 1);
+border-left: 1px solid hsla(40, 25%, 68%, 1);
+border-radius: 10px 10px 0px 0px;
+}
+
+.heppa-wrapper .description {
+text-align: center;
+border-bottom: 1px solid hsla(40, 25%, 68%, 1);
+border-right: 1px solid hsla(40, 25%, 68%, 1);
+border-left: 1px solid hsla(40, 25%, 68%, 1);
+background-color:hsla(47, 92%, 92%, 0.95);
+}
+
+.heppa-wrapper .description p {
+text-align: center;
+font-size: 0.8em !important;
+padding: 5px;
+}
+
+.heppalistaus {
+	padding: 7px;
+	border-bottom: 1px solid hsla(40, 25%, 68%, 0.3);
+	font-size: 0.9em;
+}
+
+.heppalistaus:hover {
+	background-color:hsla(47, 92%, 92%, 0.95);
+}
+
+.nimi {
+	font-size: 1.1em;
+}
+
+.muistoissa ul {
+
+}
+
+.muistoissa li {
+	font-size: 0.9em;
+	margin-bottom: 10px;
+	list-style-type: none;
+}
+
+blockquote {
+	border: 0 !important;
+	font-family: 'Playfais Display', serif;
+	font-size: 1em !important;
+	font-style: italic;
+	color: #3c6e72;
+}
+
+.kasvattilista {
+	margin-top: 50px;
+}
+
+
+/* HEVOSEN ULKOASU */
+
+
+hr.special {
+	border-top: 4px double hsla(40, 25%, 68%, 1);
+	text-align: center;
+	width: 95%;
+	margin-top: 75px;
+	margin-bottom: 75px;
+}
+hr.special:after {
+	content: '\002665';
+	display: inline-block;
+	position: relative;
+	top: -15px;
+	padding: 0 10px;
+	background: hsla(47, 92%, 90%, 1);
+	color: #ACCEC0;
+	font-size: 1.4em;
+}
+
+.meriitit {
+	text-align: center;
+	font-size: 1.4em;
+	margin-bottom: 50px;
+}
+
+.meriitit > .fa {
+	color: #c99d0d;
+	margin-right: 5px;
+}
+
+.kuvat {
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+.kuvat img {
+	max-height: 280px;
+	border:5px solid hsla(184, 31%, 46%, 0.5); 
+	box-shadow: 0 0 10px #ccc;
+}
+
+.kuvagalleria {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.kuvagalleria img {
+	max-height: 150px;
+	border: 3px solid hsla(184, 31%, 46%, 0.5); 
+	box-shadow: 0 0 10px #ccc;
+	margin: 5px;
+}
+
+@media screen and (max-width: 991px) {
+    .kuvat img {
+    	max-height: 175px;
+    }
+
+    .kuvagalleria img {
+    	max-height: 135px;
+    }
+}
+
+.perustiedot {	
+	padding-right: 15px !important;
+	
+}
+ 
+.tiedot {
+	margin: 0;
+	padding-right: 15px !important; 
+}
+
+.tieto {
+	padding: 3px;
+	background-color: hsla(155, 26%, 74%, 0.5);
+	border: 1px solid hsla(40, 25%, 68%, 1);
+}
+
+.vastaus {
+	text-align: center;
+	padding: 3px;
+	background-color: hsla(40, 25%, 68%, 0.7);
+	border: 1px solid hsla(40, 25%, 68%, 1);
+}
+
+.virtuaalihevonen, .copyteksti {
+	font-size: 0.8em;
+	text-align: center;
+	margin: 10px;
+}
+
+
+.luonne {
+	text-align: justify; 
+	padding-right: 50px !important;
+	padding-left: 15px !important; 
+	border-left: 4px double hsla(40, 25%, 68%, 1); 
+}
+
+.luonne p {
+	font-size: 0.85em !important;
+}
+
+
+.suku {
+	width: 100%;
+	margin-bottom: 25px;
+	background-image: url('http://colourlovers.com.s3.amazonaws.com/images/patterns/2384/2384692.png');
+}
+.suku tr {
+	border-bottom: 1px solid hsla(40, 25%, 68%, 1);
+}
+
+.suku td {
+	padding: 5px;
+	background-color:hsla(47, 92%, 90%, 0.95);
+}
+
+.hepannimi {
+	font-weight: bold;
+}
+
+.varsat {
+	margin-top: 50px;
+}
+.varsa {
+	height: 175px;
+	overflow: hidden;
+}
+
+#sukuselvitys {
+	margin-top: 25px;
+	text-align: justify;
+}
+
+.paivakirja {
+	text-align: justify;
+}
+
+.paivakirja h3 {
+	font-size: 1.2em;
+	border-bottom: 1px dashed hsla(40, 25%, 68%, 1)
+}
+
+.paivakirja p {
+	font-size: 0.85em !important;
+
+}
+
+
+
+.kisat {
+	padding: 25px;
+	margin-top: 40px;
+	margin-bottom: 25px;
+
+}
+
+.sijoitukset {
+	max-height: 250px;
+	overflow: auto;
+	background-color:hsla(47, 92%, 90%, 1);
+}
+
+.saavutukset{
+	margin-top: 25px;
+	margin-bottom: 50px;
+	text-align: left;
+	font-size: 13px;
+
+}
+
+.saavutukset h4{
+	margin-top: 25px;
+}
+
+.ominaisuuspisteet {
+	vertical-align: middle;
+	height: 100%;
+}
+
+/** Interaktiivisen sukutaulun tyylittely */
+
+/**
+ * Kaikkia sukutauluun tiettyihin datoihin liittyviÃ¤ tyylejÃ¤ voi muokata.
+ * Esimerkiksi "meriitit" avaimella olevia datoja voi muokata seuraavasti:
+
+.VS_Sukutaulu__data-meriitit {
+	color: pink;
+}
+
+ * Eli kaikki avaimet tulevat aina luokalla:
+ *     .VS_Sukutaulu__data-<AVAIMEN_NIMI_TÃ„HÃ„N>
+ */
+
+.VS_Sukutaulu {
+  border-top: 1px solid hsla(22, 100%, 96%, 0.4) ;
+  border-left: 1px solid hsla(22, 100%, 96%, 0.4) ;
+}
+.VS_Sukutaulu__heppainfo {
+  border-bottom: 1px solid hsla(22, 100%, 96%, 0.4) ;
+  border-right: 1px solid hsla(22, 100%, 96%, 0.4) ;
+  padding: 5px;
+  cursor: pointer;
+}
+.VS_Sukutaulu__heppainfo:hover {
+	background-color: rgba(81, 150, 155, 0.25);
+}
+.VS_Sukutaulu__polvi-0 {
+	cursor: inherit;
+}
+.VS_Sukutaulu__polvi-0.VS_Sukutaulu__heppainfo:hover {
+	background-color: transparent;
+}
+.VS_Sukutaulu__sukulainen {
+  background-color: rgba(81, 150, 155, 0.10);
+}
+.VS_Sukutaulu__tyhja-sukulainen {
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.VS_Sukutaulu__tyhja-heppainfo {
+	border-bottom: 1px solid hsla(22, 100%, 96%, 0.4) ;
+	border-right: 1px solid hsla(22, 100%, 96%, 0.4) ;
+	padding: 5px;
+}
+.VS_Sukutaulu__heppa {
+  text-align: center;
+}
+.VS_Sukutaulu__tyhja-heppa {
+  text-align: center;
+}
+
+.VS_Jalkelainen__header {
+	padding-top: 16px;
+	margin-top: 16px;
+	border-top: 1px solid #eee;
+	font-size: 20px;
+}
+a.VS_Jalkelainen__listItem {
+	cursor: pointer;
+}
+
+.VS_Sukutaulu__data-nimi {
+	font-weight: bold;
+}
+
+.VS_Sukutaulu__data-rotu {
+	font-size: 12px;
+}
+
+
+/** Lighboxin määrittelyt **/
+
+#lightbox{
+	background-color:#eee;
+	padding: 10px;
+	border-bottom: 2px solid #666;
+	border-right: 2px solid #666;
+	}
+#lightboxDetails{
+	font-size: 0.8em;
+	padding-top: 0.4em;
+	}	
+#lightboxCaption{ float: left; }
+#keyboardMsg{ float: right; }
+#closeButton{ top: 5px; right: 5px; }
+
+#lightbox img{ border: none; clear: both;} 
+#overlay img{ border: none; }
+
+#overlay{ background-image: url(overlay.png); }
+
+* html #overlay{
+	background-color: #333;
+	back\ground-color: transparent;
+	background-image: url(blank.gif);
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/hukkapuro/overlay.png", sizingMethod="scale");
+	}
+
+
+		/*** Kutsu ***/
+	.kutsu img{
+		margin-left: 30px;
+		float: right;
+		margin-bottom: 10px;
+		border: 1px solid hsla(23, 16%, 11%, 1);
+		height: 200px;
+		width: auto;
+	}
+
+	.palkinto img{
+		height: 150px;
+		width: auto;
+		border: 0px;
+	}
+
+	.osallistumisinfo{
+		text-align: left;
+	}
